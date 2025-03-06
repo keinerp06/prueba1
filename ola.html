@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Menú de navegación -->
+    <nav class="menu">
+        <a href="#">Inicio</a>
+        <a href="#">Nosotros</a>
+        <a href="#contacto">Contáctenos</a>
+    </nav>
+
+    <!-- Sección de contacto -->
+    <section id="contacto" class="contacto-container">
+        <!-- Formulario de contacto -->
+        <div class="formulario">
+            <h2>Contáctanos</h2>
+            <form id="contactForm">
+                <input type="text" id="nombre" name="nombre" placeholder="Nombre" required>
+                <input type="email" id="email" name="email" placeholder="Correo Electrónico" required>
+                <textarea id="mensaje" name="mensaje" rows="4" placeholder="Mensaje" required></textarea>
+                <button type="submit">Enviar</button>
+                <p id="mensajeRespuesta"></p>
+            </form>
+        </div>
+
+        <!-- Dirección de la empresa -->
+        <div class="direccion">
+            <h2>Nuestra Ubicación</h2>
+            <p>📍 Av. Principal #123, Ciudad, País</p>
+            <p>📞 Teléfono: +123 456 7890</p>
+            <p>✉ Email: contacto@empresa.com</p>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
