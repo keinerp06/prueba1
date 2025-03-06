@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f5f5f5;
+}
+
+/* Estilos del menú */
+.menu {
+    background: #007BFF;
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding: 15px 0;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    margin: 0 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.menu a:hover {
+    text-decoration: underline;
+}
+
+/* Sección de contacto */
+.contacto-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    gap: 30px;
+}
+
+/* Formulario */
+.formulario {
+    width: 50%;
+    padding: 20px;
+    background: #f8f9fa;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.formulario h2 {
+    margin-bottom: 15px;
+}
+
+.formulario input, 
+.formulario textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.formulario button {
+    background: #007BFF;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.formulario button:hover {
+    background: #0056b3;
+}
+
+/* Sección de dirección */
+.direccion {
+    width: 40%;
+    padding: 20px;
+    background: #e9ecef;
+    border-radius: 5px;
+}
+
+.direccion h2 {
+    margin-bottom: 10px;
+}
+
+/* Mensaje de respuesta */
+#mensajeRespuesta {
+    margin-top: 10px;
+    font-weight: bold;
+}
